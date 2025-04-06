@@ -1,0 +1,52 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Security and keys
+*.key
+*.pem
+*.cert
+
+# Logs
+*.log
+logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+test_*.db
+
+# Project specific
+encryption_key.key
+device_locator.db
+test_device_locator.db
+test_encryption_key.key
+
